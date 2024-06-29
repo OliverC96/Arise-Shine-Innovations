@@ -5,11 +5,11 @@ import {
 
 export default function Background() {
     return (
-        <div className="py-24 px-72 flex bg-gold font-body justify-between gap-12">
-            <div>
+        <div className="py-24 md:py-28 px-20 md:px-32 xl:px-72 flex flex-col lg:flex-row bg-gold font-body justify-between gap-12">
+            <div className="w-1/2 md:w-1/3 lg:w-auto">
                 <img className="rounded-2xl" src="profile_pic.JPG" />
             </div>
-            <div className="flex flex-col gap-5">
+            <div className="flex flex-col gap-6 md:gap-5">
                 <h1 className="text-4xl text-green-dark font-header font-bold mt-2">
                     About Me
                 </h1>
