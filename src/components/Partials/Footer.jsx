@@ -9,7 +9,7 @@ const socialLinks = [
         icon: LuMail
     },
     {
-        link: "https://www.instagram.com",
+        link: "https://www.instagram.com/simonehomeniuk/",
         icon: LuInstagram
     }
 ]
@@ -17,7 +17,7 @@ const socialLinks = [
 export default function Footer(props) {
     const currYear = new Date().getFullYear();
     return (
-        <div className="w-screen flex flex-col items-center gap-5 py-10 bg-green-xdark">
+        <div className="w-screen flex flex-col items-center gap-6 py-10 bg-green-xdark">
             <div className="flex gap-5">
                 {
                     socialLinks.map(e => {

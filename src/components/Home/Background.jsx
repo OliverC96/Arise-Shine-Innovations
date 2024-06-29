@@ -6,8 +6,8 @@ export default function Background() {
             <h1 className="text-4xl text-green-dark font-header font-bold mb-2">
                 About Me
             </h1>
-            <p className="text-slate-800">
-                <b>Simone Homeniuk – Thought Leader and Empowerment Coach</b>
+            <p className="text-slate-800 text-lg">
+                <b>Simone Homeniuk – Thought Leader and Wisdom Coach</b>
             </p>
             <p className="text-slate-800">
                 I am a <b><u>Jay Shetty Certified Life Coach.</u> </b>
@@ -29,7 +29,7 @@ export default function Background() {
             </p>
             <button
                 onClick={() => window.location = 'mailto:yourmail@domain.com'}
-                className="text-gold bg-green-dark w-fit px-4 py-3 mt-3 rounded transition hover:bg-lavender  duration-300 flex gap-2"
+                className="text-gold bg-green-dark w-fit px-4 py-3 mt-3 rounded transition hover:bg-lavender duration-200 flex gap-2"
             >
                 <FiArrowRightCircle className="text-2xl" />
                 Email Me for Life Coaching Packages
