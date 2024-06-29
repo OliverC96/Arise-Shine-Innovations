@@ -9,7 +9,7 @@ export default function App() {
   return (
       <div>
           <Header />
-          <img src="Logo.jpg" alt="logo" className="w-screen" />
+          <img src="logo.jpg" alt="logo" className="w-screen" />
           <Motivation />
           <Mission />
           <Background />
