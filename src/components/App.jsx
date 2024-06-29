@@ -1,9 +1,20 @@
-function App() {
+import Header from "./Partials/Header";
+import Footer from "./Partials/Footer";
+import Motivation from "./Home/Motivation";
+import Mission from "./Home/Mission";
+import Background from "./Home/Background";
+import TestimonialWrapper from "./Home/TestimonialWrapper";
+
+export default function App() {
   return (
-      <h1 className="text-3xl font-bold underline text-green-500">
-        Hello world!
-      </h1>
+      <div>
+          <Header />
+          <img src="Logo.jpg" alt="logo" className="w-screen" />
+          <Motivation />
+          <Mission />
+          <Background />
+          <TestimonialWrapper />
+          <Footer author="H6 Life Coaching Inc."/>
+      </div>
   );
 }
-
-export default App;
