@@ -1,11 +1,8 @@
-import {
-    FiArrowRightCircle,
-    FiExternalLink
-} from "react-icons/fi";
+import { FiArrowRightCircle } from "react-icons/fi";
 
 export default function Background() {
     return (
-        <div className="py-24 md:py-28 px-20 md:px-32 xl:px-72 flex flex-col lg:flex-row bg-gold font-body justify-between gap-10 lg:gap-12">
+        <div className="py-20 sm:py-24 md:py-28 px-14 sm:px-20 md:px-32 xl:px-72 flex flex-col lg:flex-row bg-gold font-body justify-between gap-10 lg:gap-12">
             <div className="w-1/2 md:w-1/3 lg:w-auto">
                 <img className="rounded-2xl" src="profile_pic.JPG" />
             </div>

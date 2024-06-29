@@ -1,6 +1,6 @@
 export default function Motivation() {
     return (
-        <div className="py-24 md:py-28 px-20 md:px-32 xl:px-72 flex flex-col gap-6 bg-gold">
+        <div className="py-20 sm:py-24 md:py-28 px-14 sm:px-20 md:px-32 xl:px-72 flex flex-col gap-6 bg-gold">
             <h1 className="text-4xl text-green-dark font-header font-bold">
                 Motivation
             </h1>
