@@ -5,7 +5,7 @@ import {
 
 const socialLinks = [
     {
-        link: "https://www.google.com/gmail/about/",
+        link: "mailto:simonehomeniuk@h6lifecoaching.ca",
         icon: LuMail
     },
     {
