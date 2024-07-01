@@ -10,7 +10,7 @@ export default function App() {
   return (
       <div>
           <Header />
-          <Banner imageFilePath="./logo4.png" />
+          <Banner imageFilePath="./logo.png" />
           <Motivation />
           <Mission />
           <Background />
