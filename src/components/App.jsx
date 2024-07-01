@@ -1,4 +1,5 @@
 import Header from "./Partials/Header";
+import Banner from "./Home/Banner";
 import Footer from "./Partials/Footer";
 import Motivation from "./Home/Motivation";
 import Mission from "./Home/Mission";
@@ -9,12 +10,12 @@ export default function App() {
   return (
       <div>
           <Header />
-          <img src="logo_banner.png" alt="logo" className="w-screen" />
+          <Banner imageFilePath="./logo4.png" />
           <Motivation />
           <Mission />
           <Background />
           <TestimonialWrapper />
-          <Footer author="H6 Life Coaching Inc."/>
+          <Footer author="H6 Life Coaching Inc." />
       </div>
   );
 }

@@ -25,7 +25,8 @@ module.exports = {
     },
     fontFamily: {
       header: ["Lustria", "serif"],
-      body: ["Lato", "sans-serif"]
+      body: ["Lato", "sans-serif"],
+      tagline: ["Open Sans", "sans-serif"]
     }
   },
   plugins: [],

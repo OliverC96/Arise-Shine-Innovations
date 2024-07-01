@@ -6,3 +6,6 @@
     -> Green and gold colour palette for logo and content
 -> Aims to become an Instagram influencer - producing reels to increase reach and gain a significant following
     -> Will use Instagram account to promote life coaching business (by directing users to the website)
+-> Original logo colour scheme:
+    -> Primary (background) colour: #4BA061
+    -> Accent (font) colour: #D4EFD5
