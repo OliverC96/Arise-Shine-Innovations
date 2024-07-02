@@ -15,7 +15,7 @@ const clientTestimonials = [
 
 export default function TestimonialWrapper() {
     return (
-        <div className="py-16 sm:py-24 md:py-32 px-16 sm:px-24 md:px-32 xl:px-60 flex flex-col gap-7 bg-green-dark">
+        <div className="py-14 sm:py-24 md:py-32 px-14 sm:px-24 md:px-32 xl:px-60 flex flex-col gap-7 bg-green-dark">
             <h1 className="text-3xl lg:text-4xl text-gold font-header font-bold">
                 Testimonials
             </h1>

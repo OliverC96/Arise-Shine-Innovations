@@ -1,10 +1,12 @@
 import { FiArrowRightCircle } from "react-icons/fi";
+import { PiFlower } from "react-icons/pi";
 
 export default function Background() {
     return (
-        <div className="py-16 sm:py-24 md:py-32 px-16 sm:px-24 md:px-32 xl:px-64 flex flex-col lg:flex-row bg-gold font-body justify-between gap-8 sm:gap-10 lg:gap-12">
-            <div className="w-[45%] md:w-1/3 lg:w-auto">
+        <div className="py-14 sm:py-24 md:py-32 px-14 sm:px-24 md:px-32 xl:px-64 flex flex-col lg:flex-row bg-gold font-body justify-between gap-8 sm:gap-10 lg:gap-12">
+            <div className="w-[45%] md:w-1/3 lg:w-auto flex flex-col gap-8">
                 <img className="rounded-2xl" src="profile_pic.JPG" />
+                <PiFlower className="hidden text-lavender text-8xl self-end" />
             </div>
             <div className="flex flex-col gap-4 sm:gap-5">
                 <h1 className="text-3xl lg:text-4xl text-green-dark font-header font-bold mt-2">
