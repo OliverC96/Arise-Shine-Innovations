@@ -2,8 +2,8 @@ import { FiArrowRightCircle } from "react-icons/fi";
 
 export default function Background() {
     return (
-        <div className="py-20 sm:py-24 md:py-32 px-16 sm:px-20 md:px-32 xl:px-64 flex flex-col lg:flex-row bg-gold font-body justify-between gap-8 sm:gap-10 lg:gap-12">
-            <div className="w-2/5 md:w-1/3 lg:w-auto">
+        <div className="py-16 sm:py-24 md:py-32 px-16 sm:px-24 md:px-32 xl:px-64 flex flex-col lg:flex-row bg-gold font-body justify-between gap-8 sm:gap-10 lg:gap-12">
+            <div className="w-[45%] md:w-1/3 lg:w-auto">
                 <img className="rounded-2xl" src="profile_pic.JPG" />
             </div>
             <div className="flex flex-col gap-4 sm:gap-5">

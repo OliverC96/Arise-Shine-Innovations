@@ -1,6 +1,6 @@
 export default function Mission() {
     return (
-        <div className="py-20 sm:py-24 md:py-32 px-16 sm:px-20 md:px-32 xl:px-64 flex flex-col gap-6 bg-green-dark">
+        <div className="py-16 sm:py-24 md:py-32 px-16 sm:px-24 md:px-32 xl:px-64 flex flex-col gap-6 bg-green-dark">
             <h1 className="text-3xl lg:text-4xl text-green-light font-header font-bold">
                 Mission
             </h1>
