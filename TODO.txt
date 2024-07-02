@@ -1,3 +1,2 @@
 -> Refine "Email Me" button - add shadow or gradient on hover?
 -> Add icon/decal/logo below profile picture to reduce whitespace
--> Shrink font size on mobile screen sizes?

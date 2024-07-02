@@ -11,7 +11,7 @@ export default function Testimonial(props) {
                 {props.content}
                 <RiDoubleQuotesR className="text-2xl sm:text-3xl self-end" />
             </p>
-            <h2 className="text-base sm:text-lg"> <i><b>~ {props.name}, {props.country}</b></i> </h2>
+            <h2 className="text-lg lg:text-xl"> <i><b>~ {props.name}, {props.country}</b></i> </h2>
         </div>
     );
 }
