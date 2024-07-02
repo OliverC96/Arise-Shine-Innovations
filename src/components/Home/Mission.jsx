@@ -1,10 +1,10 @@
 export default function Mission() {
     return (
-        <div className="py-20 sm:py-24 md:py-28 px-14 sm:px-20 md:px-32 xl:px-72 flex flex-col gap-6 bg-green-dark">
-            <h1 className="text-4xl text-green-light font-header font-bold">
+        <div className="py-20 sm:py-24 md:py-28 px-20 md:px-32 xl:px-72 flex flex-col gap-6 bg-green-dark">
+            <h1 className="text-2xl sm:text-4xl text-green-light font-header font-bold">
                 Mission
             </h1>
-            <p className="text-gold font-body">
+            <p className="text-gold font-body text-sm sm:text-base">
                 I can help guide you to your <u> truest</u> potential.
                 I have practiced seeing potential for <b>28 years,</b> in <b>thousands</b> of students, and to SEE all the GOOD in students.
                 It is easy for me to HEAR you, to SEE you and to VALIDATE your life journey.

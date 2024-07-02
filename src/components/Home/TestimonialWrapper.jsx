@@ -15,11 +15,11 @@ const clientTestimonials = [
 
 export default function TestimonialWrapper() {
     return (
-        <div className="py-20 sm:py-24 md:py-28 px-14 sm:px-20 md:px-32 xl:px-72 flex flex-col gap-7 bg-green-dark">
-            <h1 className="text-4xl text-gold font-header font-bold">
+        <div className="py-20 sm:py-24 md:py-28 px-20 md:px-32 xl:px-72 flex flex-col gap-7 bg-green-dark">
+            <h1 className="text-2xl sm:text-4xl text-gold font-header font-bold">
                 Testimonials
             </h1>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 font-body">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 font-body text-sm sm:text-base">
                 {
                     clientTestimonials.map(t => {
                         return <Testimonial {...t} />
