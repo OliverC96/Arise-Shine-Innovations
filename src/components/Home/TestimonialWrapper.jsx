@@ -65,8 +65,9 @@ export default function TestimonialWrapper() {
             <h1 className="text-3xl lg:text-4xl text-gold font-header font-bold">
                 Testimonials
             </h1>
-            <div className="hidden lg:block">
-                <Slider {...largeFormatSettings} className="p-6 lg:hidden">
+            {/* Testimonial Carousel Version #1 (Md/Lg Screen Sizes) */}
+            <div className="hidden sm:block">
+                <Slider {...largeFormatSettings} className="p-6">
                     {
                         clientTestimonials.map(t => {
                             return <Testimonial {...t} />
@@ -74,8 +75,9 @@ export default function TestimonialWrapper() {
                     }
                 </Slider>
             </div>
-            <div className="lg:hidden">
-                <Slider {...smallFormatSettings} className="lg:hidden">
+            {/* Testimonial Carousel Version #2 (Sm Screen Sizes) */}
+            <div className="sm:hidden">
+                <Slider {...smallFormatSettings} className="">
                     {
                         clientTestimonials.map(t => {
                             return <Testimonial {...t} />
