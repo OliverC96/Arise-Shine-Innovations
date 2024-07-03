@@ -4,6 +4,7 @@ import Footer from "./Partials/Footer";
 import Motivation from "./Home/Motivation";
 import Mission from "./Home/Mission";
 import Background from "./Home/Background";
+import Definition from "./Home/Definition";
 import TestimonialWrapper from "./Home/TestimonialWrapper";
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
           <Mission />
           <Background />
           <TestimonialWrapper />
+          <Definition />
           <Footer author="H6 Life Coaching Inc." />
       </div>
   );

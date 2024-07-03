@@ -37,7 +37,7 @@ export default function Background() {
                     onClick={() => window.location = 'mailto:simonehomeniuk@h6lifecoaching.ca'}
                     className="text-gold bg-green-dark w-fit lg:text-lg px-4 py-3 mt-2 rounded transition lg:hover:bg-lavender duration-200 flex gap-2"
                 >
-                    <FiArrowRightCircle className="text-2xl hidden sm:block" />
+                    <FiArrowRightCircle className="text-2xl hidden sm:block lg:mt-0.5" />
                     Email Me for Life Coaching Packages
                 </button>
             </div>
