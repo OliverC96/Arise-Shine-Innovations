@@ -14,10 +14,14 @@ module.exports = {
         light: "#c3f2af",
         med: "#57a040",
         dark: "#315C25",
-        xdark: "#192E12",
-        logo: {
-          light: "#D4EFD5",
-          dark: "#4BA061"
+        xdark: "#192E12"
+      },
+      logo: {
+        primary: "#315C25",
+        accent: "#FFFADB",
+        alt: {
+          primary: "#4BA061",
+          accent: "#D4EFD5"
         }
       },
       gold: "#FFFADB",

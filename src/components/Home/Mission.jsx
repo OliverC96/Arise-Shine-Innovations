@@ -9,7 +9,7 @@ export default function Mission() {
                 I have practiced seeing potential for <b>28 years,</b> in <b>thousands</b> of students, and to SEE all the GOOD in students.
                 It is easy for me to HEAR you, to SEE you and to VALIDATE your life journey.
                 I know I can help you reach your highest potential by forming a CARING and EMPATHETIC relationship with you, so you can find your way back to your AUTHENTIC self.
-                Gotta work on your SELF WORTH though! Can’t embrace your AUTHENTICITY without an “unshakable SELF WORTH”, as Jamie Kern Lima says in <i>“WORTHY”</i>.
+                Gotta work on your SELF WORTH though! Can’t embrace your AUTHENTICITY without an “unshakeable SELF WORTH”, as Jamie Kern Lima says in <i>“WORTHY”</i>.
                 I can help lead you to your SELF WORTH too. I LOVE <u><b>deeply,</b></u> and <u><b>non fakely,</b></u> connecting to HUMANS.
             </p>
         </div>

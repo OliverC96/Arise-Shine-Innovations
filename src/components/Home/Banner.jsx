@@ -1,6 +1,6 @@
 export default function Banner(props) {
     return (
-        <div className="h-[90vh] bg-green-dark flex justify-center items-center">
+        <div className="h-[90vh] bg-logo-primary flex justify-center items-center">
             <div className="mb-[10vh] flex flex-col md:flex-row justify-center items-center gap-7 lg:gap-4 w-4/6">
                 <img
                     src={props.imageFilePath}
