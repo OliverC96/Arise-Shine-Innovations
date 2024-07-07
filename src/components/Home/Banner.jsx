@@ -13,8 +13,7 @@ export default function Banner(props) {
                     From Hitler to Homeniuk:  Hurdling Hypocrisy in Search of Hope for HUMANITY.
                 </p>
             </div>
-            <DownloadButton type="small" />
-            <DownloadButton type="large" />
+            <DownloadButton />
         </div>
     );
 }
