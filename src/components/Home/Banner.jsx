@@ -1,6 +1,8 @@
+import { FaDownload } from "react-icons/fa6";
+
 export default function Banner(props) {
     return (
-        <div className="h-[90vh] bg-logo-primary flex justify-center items-center">
+        <div className="h-[90vh] bg-logo-primary flex flex-col justify-center items-center">
             <div className="mb-[10vh] flex flex-col md:flex-row justify-center items-center gap-7 lg:gap-4 w-4/6">
                 <img
                     src={props.imageFilePath}
@@ -11,6 +13,13 @@ export default function Banner(props) {
                     From Hitler to Homeniuk:  Hurdling Hypocrisy in Search of Hope for HUMANITY.
                 </p>
             </div>
+            <a
+                href="Manifesto of Love and Peace.docx"
+                download
+                className="mx-10 text-center absolute bottom-[7vh] flex gap-2 items-center border-2 border-gold rounded-md px-3 py-2 text-gold lg:text-lg hover:text-green-dark hover:bg-gold transition-all duration-300">
+                My Autobiographical Manifesto of “Love and Peace”
+                <FaDownload className="text-lg shrink-0" />
+            </a>
         </div>
     );
 }
