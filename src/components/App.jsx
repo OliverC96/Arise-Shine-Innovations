@@ -8,20 +8,28 @@ import Definition from "./Home/Definition";
 import TestimonialWrapper from "./Home/TestimonialWrapper";
 import { SpeedInsights } from "@vercel/speed-insights/react"
 import { Analytics } from "@vercel/analytics/react"
+import {
+    BrowserRouter,
+    Route
+} from "react-router-dom";
 
 export default function App() {
   return (
-      <div>
-          <Header />
-          <Banner imageFilePath="./logo.png" />
-          <Motivation />
-          <Mission />
-          <Background />
-          <TestimonialWrapper />
-          <Definition />
-          <Footer author="H6 Life Coaching Inc." />
-          <SpeedInsights />
-          <Analytics />
-      </div>
+      <BrowserRouter>
+          <Route path="/original">
+              <div>
+                  <Header/>
+                  <Banner imageFilePath="./logo.png"/>
+                  <Motivation/>
+                  <Mission/>
+                  <Background/>
+                  <TestimonialWrapper/>
+                  <Definition/>
+                  <Footer author="H6 Life Coaching Inc."/>
+                  <SpeedInsights/>
+                  <Analytics/>
+              </div>
+          </Route>
+      </BrowserRouter>
   );
 }
