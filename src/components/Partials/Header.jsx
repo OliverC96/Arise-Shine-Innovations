@@ -15,10 +15,11 @@ export default function Header() {
     }, []);
 
     return (
-        <div className={`${scrolled ? 'bg-green-xdark' : 'bg-green-dark'} ${scrolled ? 'text-gold' : 'text-gold'} flex justify-between items-center h-[10vh] px-6 font-body text-lg sticky top-0 z-50 transition-all duration-200 ease-in`}>
+        <div
+            className={`${scrolled ? 'bg-green-xdark' : 'bg-green-dark'} ${scrolled ? 'text-gold' : 'text-gold'} flex justify-between items-center h-[10vh] px-6 font-body text-lg sticky top-0 z-50 transition-all duration-200 ease-in`}>
             <a className="hover:cursor-pointer" href="/"> H6 Life Coaching </a>
-            <p className="hidden lg:block"> Simone Homeniuk – Thought Leader and Wisdom Coach </p>
-            <a className="hover:underline" href="/"> Home </a>
+            <a className="hover:underline" href="/"> Gallery </a>
+            <a className="hover:underline" href="/"> Testimonials </a>
         </div>
     );
 

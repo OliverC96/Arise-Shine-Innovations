@@ -10,10 +10,9 @@ export default function Banner(props) {
                     className="w-1/2 md:w-[22%] lg:hover:rotate-45 transition duration-500"
                 />
                 <p className="text-med sm:text-lg text-gold font-tagline tracking-wide text-center">
-                    From Hitler to Homeniuk:  Hurdling Hypocrisy in Search of Hope for HUMANITY.
+                    HERSTORY with Homeniuk: Hurdling Hypocrisy in Search of Hope for Humanity
                 </p>
             </div>
-            <DownloadButton />
         </div>
     );
 }
