@@ -16,4 +16,4 @@ Design
 -> Design priorities: clean, tidy, mobile-friendly
 
 Miscellaneous
--> Fix business email address
+-> Fix business email address (GoDaddy)
