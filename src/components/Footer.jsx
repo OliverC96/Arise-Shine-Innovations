@@ -1,4 +1,4 @@
-import socialLinks from "../../data/socials";
+import socialLinks from "../data/socials";
 
 export default function Footer(props) {
     const currYear = new Date().getFullYear();
@@ -19,7 +19,7 @@ export default function Footer(props) {
                     })
                 }
             </div>
-            <footer className="text-gold"> ⓒ {currYear} {props.author} </footer>
+            <footer className="text-gold"> ⓒ {currYear} Arise & Shine Innovation Inc. </footer>
         </div>
     );
 }

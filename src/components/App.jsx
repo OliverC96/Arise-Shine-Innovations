@@ -1,27 +1,29 @@
-import Header from "./Partials/Header";
-import Banner from "./Home/Banner";
-import Footer from "./Partials/Footer";
-import Motivation from "./Home/Motivation";
-import Mission from "./Home/Mission";
-import Background from "./Home/Background";
-import Definition from "./Home/Definition";
-import TestimonialWrapper from "./Home/TestimonialWrapper";
-import { SpeedInsights } from "@vercel/speed-insights/react"
-import { Analytics } from "@vercel/analytics/react"
+import TestimonialWrapper from "../pages/Testimonials/TestimonialWrapper";
+import Home from "../pages/Home/Home";
+import About from "../pages/About/About";
+import Services from "../pages/Services/Services";
+import Motivation from "../pages/Motivation/Motivation";
+import Header from "./Header";
+import Footer from "./Footer";
+import {
+    BrowserRouter,
+    Routes,
+    Route
+} from "react-router-dom";
 
 export default function App() {
   return (
-      <div>
-          <Header/>
-          <Banner imageFilePath="./logo.png"/>
-          <Motivation/>
-          <Mission/>
-          <Background/>
-          <TestimonialWrapper/>
-          <Definition/>
-          <Footer author="H6 Life Coaching Inc."/>
-          <SpeedInsights/>
-          <Analytics/>
-      </div>
+      <BrowserRouter>
+          <div className="bg-[url(/public/wisdom_circle.jpg)] absolute" />
+          <Header />
+          <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/services" element={<Services />} />
+              <Route path="/mission" element={<Motivation />} />
+              <Route path="/testimonials" element={<TestimonialWrapper />} />
+          </Routes>
+          <Footer />
+      </BrowserRouter>
   );
 }

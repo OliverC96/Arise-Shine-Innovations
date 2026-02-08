@@ -1,0 +1,19 @@
+Homepage Requirements
+-> Land acknowledgment section near the bottom of the page (or in the footer?)
+-> Stock photo of diverse students learning or in a wisdom circle at the top of the page
+-> Configure contact/social media links
+
+Subpage Requirements
+-> "Who We Are"
+    -> Separate profiles, each with a short bio and selfie
+-> "What We Do"
+    -> Add current range of services from the H6 website
+
+Design
+-> Primary background colour: cream/off-white
+-> Secondary/accent colours: teal, pink, orange, blue (see logo)
+-> Reference sites: radiancesociety.ca, certifiedflourishingcoach.com
+-> Design priorities: clean, tidy, mobile-friendly
+
+Miscellaneous
+-> Fix business email address

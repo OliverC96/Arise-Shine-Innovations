@@ -61,7 +61,7 @@ export default function TestimonialWrapper() {
     };
 
     return (
-        <div className="py-14 sm:py-24 md:py-32 px-14 sm:px-24 md:px-32 xl:px-60 flex flex-col gap-7 lg:gap-3 bg-green-dark">
+        <div className="h-[90vh] px-14 sm:px-24 md:px-32 xl:px-60 flex flex-col justify-center gap-7 lg:gap-3 bg-green-dark">
             <h1 className="text-3xl lg:text-4xl text-gold font-header font-bold">
                 Testimonials
             </h1>
@@ -69,7 +69,7 @@ export default function TestimonialWrapper() {
             <div className="hidden sm:block">
                 <Slider {...largeFormatSettings} className="p-6">
                     {
-                        clientTestimonials.map(t => {
+                        clientTestimonials.testimonials.map(t => {
                             return <Testimonial {...t} />
                         })
                     }
@@ -79,7 +79,7 @@ export default function TestimonialWrapper() {
             <div className="sm:hidden">
                 <Slider {...smallFormatSettings} className="">
                     {
-                        clientTestimonials.map(t => {
+                        clientTestimonials.testimonials.map(t => {
                             return <Testimonial {...t} />
                         })
                     }
