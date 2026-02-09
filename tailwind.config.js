@@ -25,7 +25,15 @@ module.exports = {
         }
       },
       gold: "#FFFADB",
-      lavender: "#6876C4"
+      lavender: "#6876C4",
+      services: {
+        xlight: "#D2DBD1",
+        light: "#C4CFC1",
+        med: "#B5C3B2",
+        dark: "#A6B8A2",
+        xdark: "#99AD95",
+        grey: "#1E293B"
+      }
     },
     fontFamily: {
       header: ["Lustria", "serif"],
