@@ -14,7 +14,6 @@ import {
 export default function App() {
   return (
       <BrowserRouter>
-          <div className="bg-[url(/public/wisdom_circle.jpg)] absolute" />
           <Header />
           <Routes>
               <Route path="/" element={<Home />} />

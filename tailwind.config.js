@@ -33,10 +33,24 @@ module.exports = {
         dark: "#A6B8A2",
         xdark: "#99AD95",
         grey: "#1E293B"
-      }
+      },
+      blue: {
+        light: "#3061D1",
+        dark: "#2751B3"
+      },
+      orange: "#F48223",
+      teal: {
+        dark: "#2AA1A7",
+        light: "#73DFC9"
+      },
+      berry: {
+        light: "#C15187",
+        dark: "#822F57"
+      },
+      cream: "#F4F0E9"
     },
     fontFamily: {
-      header: ["Lustria", "serif"],
+      header: ["Montserrat", "sans-serif"],
       body: ["Lato", "sans-serif"],
       tagline: ["Open Sans", "sans-serif"]
     }

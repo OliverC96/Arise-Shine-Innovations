@@ -56,13 +56,13 @@ export default function TestimonialWrapper() {
             </div>
         ),
         customPaging: (dots) => (
-            <div className={`bg-gold rounded-3xl ${dots === currSlide ? 'w-8' : 'w-4'} h-1.5`} />
+            <div className={`bg-slate-800 rounded-3xl ${dots === currSlide ? 'w-8' : 'w-4'} h-1.5`} />
         )
     };
 
     return (
-        <div className="h-[90vh] px-14 sm:px-24 md:px-32 xl:px-60 flex flex-col justify-center gap-7 lg:gap-3 bg-green-dark">
-            <h1 className="text-3xl lg:text-4xl text-gold font-header font-bold">
+        <div className="h-[90vh] px-14 sm:px-24 md:px-32 xl:px-60 flex flex-col justify-center gap-7 lg:gap-3 bg-cream">
+            <h1 className="text-3xl lg:text-4xl text-slate-800 font-header font-bold">
                 Testimonials
             </h1>
             {/* Testimonial Carousel Version #1 (Md/Lg Screen Sizes) */}

@@ -3,7 +3,7 @@ function NextArrow(props) {
     return (
         <div
             className={className}
-            style={{ ...style, scale: "1.5"}}
+            style={{ ...style, scale: "1.5", strokeColor: "#1D283D"}}
             onClick={onClick}
         />
     );
@@ -14,7 +14,7 @@ function PrevArrow(props) {
     return (
         <div
             className={className}
-            style={{ ...style, scale: "1.5"}}
+            style={{...style, scale: "1.5", strokeColor: "#1D283D"}}
             onClick={onClick}
         />
     );

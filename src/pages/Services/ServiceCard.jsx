@@ -2,7 +2,7 @@ import { FaStarOfLife } from "react-icons/fa6";
 
 export default function ServiceCard({ service, index }) {
     return (
-       <div className={`${service.bgColour} rounded-md flex flex-col gap-3 p-7 border border-services-grey border-[2.5px] ${index === 0 && "lg:col-span-2"}`}>
+       <div className={`bg-orange text-white rounded-3xl flex flex-col gap-4 p-9 ${index === 0 && "lg:col-span-2"}`}>
            <div className="flex flex-col gap-3">
                <p className="text-xl lg:text-2xl"><u> Package #{index + 1} </u></p>
                <p className="text-xl lg:text-2xl"><b> {service.title} </b></p>

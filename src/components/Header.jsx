@@ -17,19 +17,15 @@ export default function Header() {
 
     return (
         <div
-            className={`${scrolled ? 'bg-green-xdark' : 'bg-green-dark'} ${scrolled ? 'text-gold' : 'text-gold'} flex justify-between items-center h-[10vh] px-6 font-body text-lg sticky top-0 z-50 transition-all duration-200 ease-in`}
+            className={`${scrolled ? 'bg-white' : 'bg-teal-dark'} ${scrolled ? 'text-gray-800' : 'text-white'} flex justify-between items-center h-[9vh] px-6 font-body text-lg lg:text-xl sticky top-0 z-50 transition-all duration-200 ease-in`}
         >
             <Link
                 className="hover:cursor-pointer"
                 to="/"
             >
-                <img
-                    src="./logo.PNG"
-                    alt="Arise & Shine Innovation Logo"
-                    className="h-[8vh]"
-                />
+                Arise & Shine Innovation
             </Link>
-            <div className="flex gap-7">
+            <div className="flex gap-8">
                 <Link
                     className="hover:underline"
                     to="/about"
