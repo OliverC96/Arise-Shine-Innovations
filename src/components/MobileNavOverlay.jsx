@@ -11,30 +11,35 @@ export default function MobileNavOverlay({ closeNav, mobileNavOpen }) {
             <Link
                 className=""
                 to="/"
+                onClick={closeNav}
             >
                 Home
             </Link>
             <Link
                 className=""
                 to="/about"
+                onClick={closeNav}
             >
                 Who We Are
             </Link>
             <Link
                 className=""
                 to="/services"
+                onClick={closeNav}
             >
                 What We Do
             </Link>
             <Link
                 className=""
                 to="/mission"
+                onClick={closeNav}
             >
                 Why We Do It
             </Link>
             <Link
                 className=""
                 to="/testimonials"
+                onClick={closeNav}
             >
                 Testimonials
             </Link>

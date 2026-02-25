@@ -1,3 +1,1 @@
-Design
--> Reference sites: radiancesociety.ca, certifiedflourishingcoach.com
--> Design priorities: clean, tidy, mobile-friendly
+-> Fix dynamic theme colour for navbar
