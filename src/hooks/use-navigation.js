@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 
 // Credit: Paige Niedringhaus
 // https://blog.bitsrc.io/using-react-hooks-to-recognize-respond-to-current-viewport-size-c385009005c0
-export default function useNavigation() {
+export default function useNavigation({ setThemeColour }) {
     const BREAKPOINT = 767;
     const [showMobileNav, setShowMobileNav] = useState(false);
     const [mobileNavOpen, setMobileNavOpen] = useState(false);
@@ -21,6 +21,7 @@ export default function useNavigation() {
             if (window.innerWidth >= BREAKPOINT) {
                 setShowMobileNav(false);
                 setMobileNavOpen(false);
+                setThemeColour("#2AA1A7");
             }
             else {
                 setShowMobileNav(true);
@@ -31,7 +32,7 @@ export default function useNavigation() {
         return () => {
             window.removeEventListener('resize', handleResize);
         }
-    }, []);
+    }, [setThemeColour]);
 
     return {
         showMobileNav,
