@@ -10,19 +10,26 @@ import {
     Routes,
     Route
 } from "react-router-dom";
+import { useState } from "react";
+import { Helmet } from "react-helmet";
 
 export default function App() {
-  return (
-      <BrowserRouter>
-          <Header />
-          <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/services" element={<Services />} />
-              <Route path="/mission" element={<Motivation />} />
-              <Route path="/testimonials" element={<TestimonialWrapper />} />
-          </Routes>
-          <Footer />
-      </BrowserRouter>
-  );
+    const [themeColour, setThemeColour] = useState('#2AA1A7');
+
+    return (
+        <BrowserRouter>
+            <Helmet>
+                <meta name="theme-color" content={themeColour} />
+            </Helmet>
+            <Header setThemeColour={setThemeColour} />
+            <Routes>
+                <Route path="/" element={<Home/>}/>
+                <Route path="/about" element={<About/>}/>
+                <Route path="/services" element={<Services/>}/>
+                <Route path="/mission" element={<Motivation/>}/>
+                <Route path="/testimonials" element={<TestimonialWrapper/>}/>
+            </Routes>
+            <Footer/>
+        </BrowserRouter>
+    );
 }

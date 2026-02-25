@@ -5,7 +5,7 @@ import useScroll from "../hooks/use-scroll";
 import useNavigation from "../hooks/use-navigation";
 import MobileNavOverlay from "../components/MobileNavOverlay";
 
-export default function Header() {
+export default function Header({ setThemeColour }) {
 
     const scrolled = useScroll();
     const {
@@ -13,6 +13,15 @@ export default function Header() {
         mobileNavOpen,
         setMobileNavOpen,
     } = useNavigation();
+
+    useEffect(() => {
+        if (mobileNavOpen) {
+            setThemeColour("#2751B3");
+        }
+        else {
+            setThemeColour("#2AA1A7");
+        }
+    }, [mobileNavOpen]);
 
     return (
         <>
