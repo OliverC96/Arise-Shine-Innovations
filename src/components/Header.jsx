@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { IoMenu } from "react-icons/io5";
 import useScroll from "../hooks/use-scroll";
@@ -18,10 +17,7 @@ export default function Header({ setThemeColour }) {
         <>
             <MobileNavOverlay
                 mobileNavOpen={mobileNavOpen}
-                closeNav={() => {
-                    setThemeColour("#2751B3");
-                    setMobileNavOpen(false);
-                }}
+                closeNav={() => setMobileNavOpen(false)}
             />
             <div
                 className={`${scrolled ? 'bg-white' : 'bg-teal-dark'} ${scrolled ? 'text-gray-800' : 'text-white'} flex justify-between items-center h-[9vh] px-6 font-body text-lg lg:text-xl sticky top-0 z-20 transition-all duration-200 ease-in`}
