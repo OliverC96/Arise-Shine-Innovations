@@ -1,57 +1,70 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { IoMenu } from "react-icons/io5";
+import useScroll from "../hooks/use-scroll";
+import useNavigation from "../hooks/use-navigation";
+import MobileNavOverlay from "../components/MobileNavOverlay";
 
 export default function Header() {
 
-    const [scrolled, setScrolled] = useState(false);
-
-    useEffect(() => {
-        const onScroll = () => {
-            const offset = window.scrollY;
-            setScrolled(offset > 0);
-        }
-        window.removeEventListener('scroll', onScroll);
-        window.addEventListener('scroll', onScroll, { passive: true });
-        return () => window.removeEventListener('scroll', onScroll);
-    }, []);
+    const scrolled = useScroll();
+    const {
+        showMobileNav,
+        mobileNavOpen,
+        setMobileNavOpen,
+    } = useNavigation();
 
     return (
-        <div
-            className={`${scrolled ? 'bg-white' : 'bg-teal-dark'} ${scrolled ? 'text-gray-800' : 'text-white'} flex justify-between items-center h-[9vh] px-6 font-body text-lg lg:text-xl sticky top-0 z-50 transition-all duration-200 ease-in`}
-        >
-            <Link
-                className="hover:cursor-pointer"
-                to="/"
+        <>
+            <MobileNavOverlay
+                mobileNavOpen={mobileNavOpen}
+                closeNav={() => setMobileNavOpen(false)}
+            />
+            <div
+                className={`${scrolled ? 'bg-white' : 'bg-teal-dark'} ${scrolled ? 'text-gray-800' : 'text-white'} flex justify-between items-center h-[9vh] px-6 font-body text-lg lg:text-xl sticky top-0 z-20 transition-all duration-200 ease-in`}
             >
-                Arise & Shine Innovation
-            </Link>
-            <div className="flex gap-8">
                 <Link
-                    className="hover:underline"
-                    to="/about"
+                    className="hover:cursor-pointer"
+                    to="/"
                 >
-                    Who We Are
+                    Arise & Shine Innovation
                 </Link>
-                <Link
-                    className="hover:underline"
-                    to="/services"
-                >
-                    What We Do
-                </Link>
-                <Link
-                    className="hover:underline"
-                    to="/mission"
-                >
-                    Why We Do It
-                </Link>
-                <Link
-                    className="hover:underline"
-                    to="/testimonials"
-                >
-                    Testimonials
-                </Link>
+                {showMobileNav
+                    ?
+                    <IoMenu
+                        className="hover:cursor-pointer size-7"
+                        onClick={() => setMobileNavOpen(!mobileNavOpen)}
+                    />
+                    :
+                    <div className="flex gap-8">
+                        <Link
+                            className="hover:underline"
+                            to="/about"
+                        >
+                            Who We Are
+                        </Link>
+                        <Link
+                            className="hover:underline"
+                            to="/services"
+                        >
+                            What We Do
+                        </Link>
+                        <Link
+                            className="hover:underline"
+                            to="/mission"
+                        >
+                            Why We Do It
+                        </Link>
+                        <Link
+                            className="hover:underline"
+                            to="/testimonials"
+                        >
+                            Testimonials
+                        </Link>
+                    </div>
+                }
             </div>
-        </div>
+        </>
     );
 
 }
