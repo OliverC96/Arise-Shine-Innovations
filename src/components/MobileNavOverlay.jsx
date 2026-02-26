@@ -12,6 +12,7 @@ export default function MobileNavOverlay({ closeNav, mobileNavOpen }) {
                 className=""
                 to="/"
                 onClick={closeNav}
+                target="_top"
             >
                 Home
             </Link>
@@ -19,6 +20,7 @@ export default function MobileNavOverlay({ closeNav, mobileNavOpen }) {
                 className=""
                 to="/about"
                 onClick={closeNav}
+                target="_top"
             >
                 Who We Are
             </Link>
@@ -26,6 +28,7 @@ export default function MobileNavOverlay({ closeNav, mobileNavOpen }) {
                 className=""
                 to="/services"
                 onClick={closeNav}
+                target="_top"
             >
                 What We Do
             </Link>
@@ -33,6 +36,7 @@ export default function MobileNavOverlay({ closeNav, mobileNavOpen }) {
                 className=""
                 to="/mission"
                 onClick={closeNav}
+                target="_top"
             >
                 Why We Do It
             </Link>
@@ -40,6 +44,7 @@ export default function MobileNavOverlay({ closeNav, mobileNavOpen }) {
                 className=""
                 to="/testimonials"
                 onClick={closeNav}
+                target="_top"
             >
                 Testimonials
             </Link>

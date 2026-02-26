@@ -25,6 +25,7 @@ export default function Header({ setThemeColour }) {
                 <Link
                     className="hover:cursor-pointer"
                     to="/"
+                    target="_top"
                 >
                     Arise & Shine Innovation
                 </Link>
@@ -39,24 +40,28 @@ export default function Header({ setThemeColour }) {
                         <Link
                             className="hover:underline"
                             to="/about"
+                            target="_top"
                         >
                             Who We Are
                         </Link>
                         <Link
                             className="hover:underline"
                             to="/services"
+                            target="_top"
                         >
                             What We Do
                         </Link>
                         <Link
                             className="hover:underline"
                             to="/mission"
+                            target="_top"
                         >
                             Why We Do It
                         </Link>
                         <Link
                             className="hover:underline"
                             to="/testimonials"
+                            target="_top"
                         >
                             Testimonials
                         </Link>
