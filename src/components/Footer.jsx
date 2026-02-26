@@ -1,25 +1,47 @@
-import socialLinks from "../data/socials";
+import { Link } from "react-router-dom";
 
 export default function Footer(props) {
     const currYear = new Date().getFullYear();
     return (
-        <div className="w-screen flex flex-col items-center gap-6 py-8 bg-berry-dark">
-            <div className="flex gap-5">
-                {
-                    socialLinks.map(e => {
-                        return (
-                            <a
-                                className="rounded-full text-gold border-2 border-gold p-3 hover:bg-gold hover:text-green-xdark transition duration-200"
-                                href={e.link}
-                                target="_blank"
-                            >
-                                <e.icon className="text-2xl" />
-                            </a>
-                        );
-                    })
-                }
+        <div className="bg-berry-dark text-white">
+            <svg viewBox="0 0 500 200" className="fill-berry-dark bg-cream rotate-180">
+                <path d="M 0,100 C 150,200 350,0 500,100 L 500,00 L 0,0"></path>
+            </svg>
+            <div className="flex flex-col w-screen items-center bg-berry-dark">
+                <div className="grid grid-cols-1 lg:grid-cols-2 bg-berry-dark gap-10 px-6 sm:px-24 md:px-32 xl:px-80">
+                    <div className="flex flex-col gap-3">
+                        <h1 className="text-2xl lg:text-3xl"> Arise & Shine Innovation </h1>
+                        <p className="text-lg lg:text-xl"> Led by two complementary specialists—one in education systems and one in patriarchal systems—Arise & Shine offers a rapid, prevention-focused approach to mental health transformation. Together, we bring a systems-level understanding of how institutional structures, intergenerational trauma, and disconnection impact youth, families, and educators. </p>
+                    </div>
+                    <div className="flex flex-row justify-between lg:flex-col gap-3 text-lg lg:text-xl lg:justify-self-end">
+                        <Link
+                            className="underline"
+                            to="/about"
+                        >
+                            Who We Are
+                        </Link>
+                        <Link
+                            className="underline"
+                            to="/services"
+                        >
+                            What We Do
+                        </Link>
+                        <Link
+                            className="underline"
+                            to="/mission"
+                        >
+                            Why We Do It
+                        </Link>
+                        <Link
+                            className="underline"
+                            to="/testimonials"
+                        >
+                            Testimonials
+                        </Link>
+                    </div>
+                </div>
+                <footer className="text-md lg:text-lg py-10"> ⓒ {currYear} Arise & Shine Innovation Inc.</footer>
             </div>
-            <footer className="text-gold"> ⓒ {currYear} Arise & Shine Innovation Inc. </footer>
         </div>
     );
 }
