@@ -3,7 +3,7 @@ import { IoClose } from "react-icons/io5";
 
 export default function MobileNavOverlay({ closeNav, mobileNavOpen }) {
     return (
-        <div className={`fixed h-full w-full justify-center items-center flex flex-col gap-8 bg-teal-dark text-white z-50 text-4xl transition-discrete duration-500 ease-in-out ${mobileNavOpen ? "opacity-100 visible" : "opacity-0 invisible"}`}>
+        <div className={`fixed h-full w-full justify-center items-center flex flex-col gap-6 bg-teal-dark text-white z-50 text-3xl transition-discrete duration-500 ease-in-out ${mobileNavOpen ? "opacity-100 visible" : "opacity-0 invisible"}`}>
             <IoClose
                 className="absolute top-5 right-5 hover:cursor-pointer"
                 onClick={closeNav}

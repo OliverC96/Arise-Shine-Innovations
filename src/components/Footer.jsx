@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { IoArrowForward } from "react-icons/io5";
 
 export default function Footer(props) {
     const currYear = new Date().getFullYear();
@@ -15,32 +16,36 @@ export default function Footer(props) {
                     </div>
                     <div className="grid grid-cols-2 gap-3 lg:grid-cols-1 text-lg lg:text-xl lg:justify-self-end">
                         <Link
-                            className="underline"
+                            className="flex gap-1 items-center hover:underline"
                             to="/about"
                             target="_top"
                         >
                             Who We Are
+                            <IoArrowForward className="text-xl" />
                         </Link>
                         <Link
-                            className="underline"
+                            className="flex gap-1 items-center hover:underline"
                             to="/services"
                             target="_top"
                         >
                             What We Do
+                            <IoArrowForward className="text-xl" />
                         </Link>
                         <Link
-                            className="underline"
+                            className="flex gap-1 items-center hover:underline"
                             to="/mission"
                             target="_top"
                         >
                             Why We Do It
+                            <IoArrowForward className="text-xl" />
                         </Link>
                         <Link
-                            className="underline"
+                            className="flex gap-1 items-center hover:underline"
                             to="/testimonials"
                             target="_top"
                         >
                             Testimonials
+                            <IoArrowForward className="text-xl" />
                         </Link>
                     </div>
                 </div>

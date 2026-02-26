@@ -7,7 +7,7 @@ export default function Home() {
     return (
         <>
             <Banner imageFilePath="./logo.PNG"/>
-            <div className="bg-teal-dark h-[10vh]"/>
+            <div className="bg-teal-dark h-[5vh]"/>
             <LandAck/>
             <SpeedInsights/>
             <Analytics/>
