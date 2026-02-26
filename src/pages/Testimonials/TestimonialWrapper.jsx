@@ -61,7 +61,7 @@ export default function TestimonialWrapper() {
     };
 
     return (
-        <div className="h-[90vh] px-14 sm:px-24 md:px-32 xl:px-60 flex flex-col justify-center gap-7 lg:gap-3 bg-cream">
+        <div className="section-padding flex flex-col justify-center gap-7 lg:gap-3 bg-cream">
             <h1 className="text-3xl lg:text-4xl text-slate-800 font-header font-bold">
                 Testimonials
             </h1>

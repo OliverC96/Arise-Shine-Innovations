@@ -10,3 +10,7 @@
 ::selection {
     background-color: #B4BBE2
 }
+
+.section-padding {
+    @apply p-8 sm:p-24 md:p-32 xl:px-80;
+}
