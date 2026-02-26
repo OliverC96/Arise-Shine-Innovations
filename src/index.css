@@ -12,5 +12,5 @@
 }
 
 .section-padding {
-    @apply p-8 sm:p-24 md:p-32 xl:px-80;
+    @apply p-6 sm:p-24 md:p-32 xl:px-80;
 }
