@@ -31,7 +31,7 @@ export default function TestimonialWrapper() {
             </div>
         ),
         customPaging: (dots) => (
-            <div className={`bg-gold rounded-3xl ${dots === currSlide ? 'w-8' : 'w-4'} h-1.5 mt-3`} />
+            <div className={`bg-slate-800 rounded-3xl ${dots === currSlide ? 'w-8' : 'w-4'} h-1.5 mt-3`} />
         )
     }
 
