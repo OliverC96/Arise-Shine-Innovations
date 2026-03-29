@@ -135,7 +135,7 @@ export default function Background() {
                     </p>
                 </div>
                 <div className="w-full lg:w-auto flex justify-between lg:flex-col lg:gap-8 lg:justify-normal">
-                    <img className="rounded-2xl w-[45%] md:w-1/3 h-auto lg:w-auto" src="jessie_selfie.jpg"/>
+                    <img className="rounded-2xl w-[45%] md:w-1/3 h-auto lg:w-auto" src="jessie_selfie.JPG"/>
                 </div>
             </div>
         </div>
