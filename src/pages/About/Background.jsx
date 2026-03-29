@@ -1,10 +1,11 @@
-import { Skeleton } from "@mui/material";
+import { BsThreeDots } from 'react-icons/bs';
 
 export default function Background() {
     return (
         <div>
             <div
-                className="section-padding flex flex-col lg:flex-row bg-cream font-body justify-between gap-8 sm:gap-10 lg:gap-12">
+                className="section-padding flex flex-col lg:flex-row bg-cream font-body justify-between gap-8 sm:gap-10 lg:gap-12"
+            >
                 <div className="w-full lg:w-auto flex justify-between lg:flex-col lg:gap-8 lg:justify-normal">
                     <img className="rounded-2xl w-[45%] md:w-1/3 h-auto lg:w-auto" src="simone_selfie.jpg"/>
                 </div>
@@ -72,10 +73,8 @@ export default function Background() {
                 </div>
             </div>
             <div
-                className="section-padding flex flex-col lg:flex-row bg-cream font-body justify-between gap-8 sm:gap-10 lg:gap-12">
-                <div className="w-full lg:w-auto flex justify-between lg:flex-col lg:gap-8 lg:justify-normal">
-                    <div className="rounded-2xl w-[45%] md:w-1/3 h-auto lg:w-auto bg-red-600"/>
-                </div>
+                className="section-padding flex flex-col-reverse lg:flex-row bg-cream font-body justify-between gap-8 sm:gap-10 lg:gap-12"
+            >
                 <div className="flex flex-col gap-4 sm:gap-5 text-slate-800">
                     <h1 className="text-3xl lg:text-4xl font-header font-bold mt-2">
                         Jessie Chen
@@ -125,8 +124,8 @@ export default function Background() {
                     <p className="lg:text-lg">
                         Arise & Shine is my answer to the question that keeps me awake at night:
                         <i> How do I use everything I know—about the brain, about trauma, about systems, about the
-                        healing power of connection—to help the people who are struggling the most, as quickly
-                        as possible?</i>
+                            healing power of connection—to help the people who are struggling the most, as quickly
+                            as possible?</i>
                     </p>
                     <p className="lg:text-lg">
                         We are not here to add another program. We are here to shift the operating system—to
@@ -134,6 +133,9 @@ export default function Background() {
                         relationship, from performance to purpose. This is my story, written alongside Simone,
                         and alongside everyone who dares to believe that another way is possible.
                     </p>
+                </div>
+                <div className="w-full lg:w-auto flex justify-between lg:flex-col lg:gap-8 lg:justify-normal">
+                    <img className="rounded-2xl w-[45%] md:w-1/3 h-auto lg:w-auto" src="jessie_selfie.jpg"/>
                 </div>
             </div>
         </div>
