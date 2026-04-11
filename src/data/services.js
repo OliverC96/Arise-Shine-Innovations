@@ -1,8 +1,23 @@
 const services = [
     {
+        title: "Whole-School Transformation/Development",
+        desc:
+            "<b>Best for</b>: 21st Century Innovation and Holistic Student Development\n" +
+            "\n<b>Includes:</b>\n",
+        listItems: [
+            "Multi-month or year-long partnership",
+            "Leadership coaching + staff development + high quality staff recruitment",
+            "Integration of trauma-informed and innovative practices across all classrooms",
+            "Holistic child development nurtures the spiritual, intellectual, emotional, social, and physical growth of each child, supporting them to thrive as healthy, capable, and connected individuals",
+            "Student leadership and voice structures",
+            "Family/community engagement",
+        ]
+    },
+    {
         title: "Reclaimed Wisdom Curriculum",
         subtitle: "A Strategic Investment in Prevention & Well-being",
-        desc: "The Case for Investment\n" +
+        desc:
+            "<u>The Case for Investment</u>\n" +
             "\n" +
             "School systems are facing a compounding crisis: escalating costs tied to student mental health needs, classroom disruptions, chronic absenteeism, and educator burnout. Current models often rely on reactive interventions—crisis response, external referrals, and managing behavioral escalation—which are financially costly and strain already limited human and institutional resources.\n" +
             "\n" +
@@ -10,14 +25,14 @@ const services = [
             "\n" +
             "This investment moves beyond containing problems to cultivating durable assets within your school community: emotional resilience, self-regulation, authentic belonging, and collective responsibility.\n" +
             "\n" +
-            "How It Works: A Proactive Model\n" +
+            "<u>How It Works: A Proactive Model</u>\n" +
             "\n" +
-            "1. Prevents Escalation: Reduces the frequency and intensity of behavioral incidents and mental health crises by building core self-regulation and social-emotional skills.\n" +
-            "2. Boosts Engagement: Fosters the safety and connection that are prerequisites for academic attention, participation, and attendance.\n" +
-            "3. Sustains Educators: Provides a sustainable, co-facilitated framework that decreases teacher burnout by improving classroom climate and distributing the emotional labor of support.\n" +
-            "4. Optimizes Resources: Creates a tier-one universal support that lessens the burden on overextended specialized staff and high-cost reactive services.\n" +
+            "<b>1. Prevents Escalation:</b> Reduces the frequency and intensity of behavioral incidents and mental health crises by building core self-regulation and social-emotional skills.\n" +
+            "\n<b>2. Boosts Engagement:</b> Fosters the safety and connection that are prerequisites for academic attention, participation, and attendance.\n" +
+            "\n<b>3. Sustains Educators:</b> Provides a sustainable, co-facilitated framework that decreases teacher burnout by improving classroom climate and distributing the emotional labor of support.\n" +
+            "\n<b>4. Optimizes Resources:</b> Creates a tier-one universal support that lessens the burden on overextended specialized staff and high-cost reactive services.\n" +
             "\n" +
-            "Rooted in Wisdom, Designed for All\n" +
+            "<u>Rooted in Wisdom, Designed for All</u>\n" +
             "\n" +
             "The curriculum is thoughtfully informed by timeless Indigenous principles of circle practice, oral storytelling, and relational leadership—traditions that have sustained communities for generations. While deeply rooted in this wisdom, the program is adaptable and inclusive, designed to benefit all students in a multicultural world. It fosters a unifying school culture where diverse backgrounds become sources of strength, building bridges of empathy and shared responsibility.\n" +
             "\n" +
