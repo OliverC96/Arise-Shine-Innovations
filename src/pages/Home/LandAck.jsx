@@ -9,7 +9,7 @@ export default function LandAck() {
                 target="_blank"
             >
                 Truth and ReconciliACTION: A Collective Independence
-                <FaExternalLinkAlt />
+                <FaExternalLinkAlt className="flex-shrink-0"/>
             </a>
             <h1 className="text-3xl lg:text-4xl text-slate-800 font-header font-bold" >
                 Land Acknowledgement
