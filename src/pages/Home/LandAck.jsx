@@ -1,6 +1,16 @@
+import { FaExternalLinkAlt } from "react-icons/fa";
+
 export default function LandAck() {
     return (
         <div className="section-padding flex flex-col gap-6 bg-cream" >
+            <a
+                className="bg-blue-light rounded-xl text-white p-6 w-fit text-xl mb-10 flex gap-2 hover:bg-blue-dark transition duration-200"
+                href="my Truth and ReconciliACTION Story.pdf"
+                target="_blank"
+            >
+                Truth and ReconciliACTION: A Collective Independence
+                <FaExternalLinkAlt />
+            </a>
             <h1 className="text-3xl lg:text-4xl text-slate-800 font-header font-bold" >
                 Land Acknowledgement
             </h1>
