@@ -113,6 +113,18 @@ export default function Background() {
                         resonance in ancient wisdom—including the Bible's vision of <i>shalom</i>: everything in its
                         right place, every relationship restored, every fracture mended.
                     </p>
+                </div>
+                <div className="w-full lg:w-auto flex justify-between lg:flex-col lg:gap-8 lg:justify-normal">
+                    <img className="rounded-2xl w-[45%] md:w-1/3 h-auto lg:w-auto" src="jessie_selfie.JPG"/>
+                </div>
+            </div>
+            <div
+                className="section-padding flex flex-col-reverse lg:flex-row bg-cream font-body justify-between gap-8 sm:gap-10 lg:gap-12"
+            >
+                <div className="flex flex-col gap-4 sm:gap-5 text-slate-800 text-center">
+                    <h1 className="text-3xl lg:text-4xl font-header font-bold mt-2 underline">
+                        Our Shared Vision:
+                    </h1>
                     <p className="lg:text-lg">
                         When Simone and I came together, something powerful happened. She brings the deep
                         wisdom of history, intergenerational patterns, and trauma-informed care. I bring the
@@ -133,9 +145,6 @@ export default function Background() {
                         relationship, from performance to purpose. This is my story, written alongside Simone,
                         and alongside everyone who dares to believe that another way is possible.
                     </p>
-                </div>
-                <div className="w-full lg:w-auto flex justify-between lg:flex-col lg:gap-8 lg:justify-normal">
-                    <img className="rounded-2xl w-[45%] md:w-1/3 h-auto lg:w-auto" src="jessie_selfie.JPG"/>
                 </div>
             </div>
         </div>
