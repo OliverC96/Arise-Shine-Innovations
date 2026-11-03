@@ -65,6 +65,13 @@ export default function Header({ setThemeColour }) {
                         >
                             Testimonials
                         </Link>
+                        <Link
+                            className="hover:underline"
+                            to="https://app.ariseshineinnovation.com"
+                            target="_top"
+                        >
+                            Wisdom App
+                        </Link>
                     </div>
                 }
             </div>
