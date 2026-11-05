@@ -48,14 +48,6 @@ export default function MobileNavOverlay({ closeNav, mobileNavOpen }) {
             >
                 Testimonials
             </Link>
-            <Link
-                className=""
-                to="https://app.ariseshineinnovation.com"
-                onClick={closeNav}
-                target="_top"
-            >
-                Wisdom App
-            </Link>
         </div>
     );
 }
