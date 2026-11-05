@@ -25,7 +25,7 @@ export default function Banner(props) {
             </div>
             <div className="px-6 sm:px-24 md:px-32 xl:px-80 flex justify-center">
                 <a
-                    className="bg-berry-light rounded-xl text-white py-4 px-10 w-fit text-xl mb-10 flex gap-2 hover:bg-berry-dark transition duration-200"
+                    className="bg-berry-light rounded-xl text-white py-4 px-8 sm:px-10 w-fit text-xl mb-10 flex gap-2 hover:bg-berry-dark transition duration-200"
                     href="https://app.ariseshineinnovation.com"
                 >
                     Reclaimed Wisdom Circle
