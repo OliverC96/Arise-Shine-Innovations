@@ -5,6 +5,7 @@ import Services from "../pages/Services/Services";
 import Motivation from "../pages/Motivation/Motivation";
 import Header from "./Header";
 import Footer from "./Footer";
+import Terms from "../pages/Terms/Terms";
 import {
     BrowserRouter,
     Routes,
@@ -28,6 +29,7 @@ export default function App() {
                 <Route path="/services" element={<Services/>}/>
                 <Route path="/mission" element={<Motivation/>}/>
                 <Route path="/testimonials" element={<TestimonialWrapper/>}/>
+                <Route path="/terms" element={<Terms />}/>
             </Routes>
             <Footer/>
         </BrowserRouter>

@@ -5,7 +5,7 @@ export default function Banner(props) {
         <div className="flex flex-col min-h-[91vh] bg-teal-dark">
             <div className="flex flex-col lg:flex-row gap-16 p-8 lg:p-28">
                 <div className="lg:w-1/2 grid grid-cols-1 gap-10 justify-items-center">
-                    <img src="logo.PNG" className="self-center rounded-md"/>
+                    <img src="logo.JPEG" className="self-center rounded-md"/>
                     <div
                         className="flex flex-col gap-8 text-white font-tagline tracking-wide text-center">
                         <p className="text-2xl sm:text-4xl"> ARISE & SHINE INNOVATION INC. </p>
@@ -20,7 +20,7 @@ export default function Banner(props) {
                         </div>
                     </div>
                 </div>
-                <img src="wisdom_circle_2.jpg"
+                <img src="wisdom_circle.jpg"
                      className="my-10 lg:w-1/2 rounded-[3.0rem] drop-shadow-md lg:drop-shadow-xl hidden sm:block"/>
             </div>
             <div className="px-6 sm:px-24 md:px-32 xl:px-80 flex justify-center">

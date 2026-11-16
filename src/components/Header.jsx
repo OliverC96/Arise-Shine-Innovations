@@ -65,6 +65,13 @@ export default function Header({ setThemeColour }) {
                         >
                             Testimonials
                         </Link>
+                        <Link
+                            className="hover:underline"
+                            to="/terms"
+                            target="_top"
+                        >
+                            Terms
+                        </Link>
                     </div>
                 }
             </div>

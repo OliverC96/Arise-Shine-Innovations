@@ -48,6 +48,14 @@ export default function MobileNavOverlay({ closeNav, mobileNavOpen }) {
             >
                 Testimonials
             </Link>
+            <Link
+                className=""
+                to="/terms"
+                onClick={closeNav}
+                target="_top"
+            >
+                Terms
+            </Link>
         </div>
     );
 }
